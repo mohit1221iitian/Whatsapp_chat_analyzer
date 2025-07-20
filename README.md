@@ -2,8 +2,8 @@
 
 Unlock the hidden insights from your WhatsApp conversations with this sleek and powerful **NLP-powered analytics tool**. Built using **Python** and **Streamlit**, this app provides an engaging dashboard to explore messaging patterns, top contributors, emoji usage, timelines, and more — all in one place.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://whatsappchatanalyzer-1221.streamlit.app/)
-
+🌐 **Live App (Copy-Paste this link into your browser manually):**  
+👉 `https://whatsappchatanalyzer-1221.streamlit.app/`
 
 ---
 
