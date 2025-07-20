@@ -124,7 +124,7 @@ if uploaded_file is not None:
             st.dataframe(df_emojis)
         with col2:
             fig,ax=plt.subplots()
-            emoji_font = fm.FontProperties(fname="C:\\Windows\\Fonts\\seguiemj.ttf")
+            emoji_font = fm.FontProperties(fname="Fonts/seguiemj.ttf")
 
             wedges,texts,autotexts=ax.pie(df_emojis['Count'],labels=df_emojis['Emoji'],autopct="%0.2f")
             for text in texts:
