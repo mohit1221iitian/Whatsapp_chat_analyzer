@@ -2,7 +2,7 @@
 
 Unlock the hidden insights from your WhatsApp conversations with this sleek and powerful **NLP-powered analytics tool**. Built using **Python** and **Streamlit**, this app provides an engaging dashboard to explore messaging patterns, top contributors, emoji usage, timelines, and more — all in one place.
 
-🌐 Live App: https://whatsappchatanalyzer-1221.streamlit.app/
+🌐 **Live App:** [Click here to try the app on Streamlit Cloud](https://whatsappchatanalyzer-1221.streamlit.app/)
 
 ---
 
@@ -73,7 +73,7 @@ cd Whatsapp_chat_analyzer
 pip install -r requirements.txt
 ```
 
-### 3. Run the Streamlit App
+### 3. Run the Streamlit App Locally
 
 ```bash
 streamlit run app.py
@@ -90,11 +90,11 @@ Export your chat from WhatsApp ("Without Media") and upload the `.txt` file to t
 <details>
 <summary>📷 Click to expand</summary>
 
-* 📊 Activity Timelines
-* 🌥️ WordClouds
-* 😂 Emoji Charts
-* 📅 Weekly Heatmaps
-* 🧑‍🤝‍🧑 User Leaderboards
+![Timeline Chart](screenshots/timeline.png)
+![WordCloud](screenshots/wordcloud.png)
+![Emoji Pie Chart](screenshots/emoji.png)
+![Weekly Heatmap](screenshots/heatmap.png)
+![Top Users](screenshots/top_users.png)
 
 </details>
 
