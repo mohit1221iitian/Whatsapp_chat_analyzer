@@ -90,11 +90,13 @@ Export your chat from WhatsApp ("Without Media") and upload the `.txt` file to t
 <details>
 <summary>📷 Click to expand</summary>
 
-![Timeline Chart](screenshots/timeline.png)
-![WordCloud](screenshots/wordcloud.png)
-![Emoji Pie Chart](screenshots/emoji.png)
-![Weekly Heatmap](screenshots/heatmap.png)
-![Top Users](screenshots/top_users.png)
+![Stats](screenshots/stats.png)
+![Timeline Chart](screenshots/Timeline.png)
+![Activity Map](screenshots/Activity_Map.png)
+![WordCloud](screenshots/Wordcloud.png)
+![Emoji Analysis](screenshots/emoji.png)
+![Common Words Analysis](screenshots/most_common_words.png)
+
 
 </details>
 
