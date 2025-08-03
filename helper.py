@@ -30,9 +30,10 @@ def fetch_stats(user,df):
 
 def busy(df):
     x = df['user'].value_counts().head()
+    temp=df[df['user'] != 'group_notificaion']
     df1 = pd.DataFrame({
-        'name': df['user'].value_counts().index,
-        'percentage': np.round((df['user'].value_counts().values / df.shape[0]) * 100, 2)
+        'name': temp['user'].value_counts().index,
+        'percentage': np.round((temp['user'].value_counts().values / temp.shape[0]) * 100, 2)
     })
 
     return x,df1
