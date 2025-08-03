@@ -29,8 +29,9 @@ def fetch_stats(user,df):
     return num_messages,len(words),media_message,len(y)
 
 def busy(df):
-    x = df['user'].value_counts().head()
+    
     temp=df[df['user'] != 'group_notificaion']
+    x = temp['user'].value_counts().head()
     df1 = pd.DataFrame({
         'name': temp['user'].value_counts().index,
         'percentage': np.round((temp['user'].value_counts().values / temp.shape[0]) * 100, 2)
